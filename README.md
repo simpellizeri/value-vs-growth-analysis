@@ -51,15 +51,6 @@ descriptive analysis, regression testing, factor models, and macro analysis.
 
 ---
 
-## How to Reproduce
-1. Clone this repository
-2. Install dependencies: `pip install openassetpricing pandas-datareader 
-   fredapi statsmodels matplotlib seaborn python-dotenv`
-3. Add your FRED API key to a `.env` file: `FRED_API_KEY=your_key_here`
-4. Run notebooks in order from 01 to 05
-
----
-
 ## Key Findings
 
 ### 1. The Value Premium Exists But Has Weakened
