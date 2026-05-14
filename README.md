@@ -16,7 +16,7 @@ performance of these measures changed over time?
 ---
 
 ## Motivation
-Value investing — buying stocks that are cheap relative to their fundamentals — 
+Value investing: buying stocks that are cheap relative to their fundamentals, 
 is one of the most studied strategies in finance. Fama and French (1993) 
 documented that high Book-to-Market stocks consistently outperform low 
 Book-to-Market stocks. However, in recent decades this "value premium" has 
@@ -26,7 +26,7 @@ This project investigates two questions:
 1. Does the value premium still exist?
 2. Does it matter how you define "value"?
 
-We compare two measures — BM and EP — across five notebooks covering 
+We compare two measures: BM and EP, across five notebooks covering 
 descriptive analysis, regression testing, factor models, and macro analysis.
 
 ---
@@ -68,7 +68,7 @@ historically outperformed expensive ones.
 The cumulative return chart shows how $1,000 invested in value vs growth 
 would have grown since 1963. Value stocks built up a significant lead in 
 earlier decades, but the gap has narrowed considerably in recent years as 
-growth stocks — particularly large tech companies — dominated the market.
+growth stocks, particularly large tech companies, dominated the market.
 
 ### 2. The Decline is Statistically Significant for BM — But Not EP
 
@@ -77,15 +77,15 @@ growth stocks — particularly large tech companies — dominated the market.
 The rolling 12-month chart above makes the story visual — blue areas show 
 periods where value beat growth, pink areas show growth winning. Notice how 
 pink periods become more frequent and deeper after 2007, particularly between 
-2017 and 2020 when large tech stocks dominated. This is not just visual noise 
-— our regression confirms it is statistically real.
+2017 and 2020 when large tech stocks dominated. This is not just visual noise,
+our regression confirms it is statistically real.
 
 Our time trend regression shows that the BM value premium has declined 
 significantly over time (t = -2.342, p = 0.019). The post-2007 dummy 
 confirms this collapse was concentrated after the financial crisis 
 (coefficient = -0.81%, t = -3.077, p = 0.002).
 
-EP tells a different story — neither the time trend nor the post-2007 
+EP tells a different story: neither the time trend nor the post-2007 
 dummy is statistically significant, suggesting EP has been a more 
 stable value measure over time.
 
@@ -119,7 +119,7 @@ worth relatively more today.
 
 Our results support this: when the 10-year Treasury yield rises by 1%, 
 the BM value spread increases by 0.02 per month (t = 2.640). This helps 
-explain why value struggled so much after 2008 — the Fed kept rates near 
+explain why value struggled so much after 2008: the Fed kept rates near 
 zero for years, consistently favoring growth over value.
 
 VIX is not significant for either measure, and EP shows no significant 
